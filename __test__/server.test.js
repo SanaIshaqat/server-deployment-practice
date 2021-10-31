@@ -21,14 +21,14 @@ describe('API Server Testing', () => {
   });
 
   // test if the /data endpoint works
-  test('/data works', async () => {
+  test('/data endpoint works', async () => {
     const response = await request.get('/data');
     expect(response.status).toEqual(200);
-    expect(typeof response.body).toEqual('object'); // checking the type of th response 
+    expect(typeof response.body).toEqual('object'); // checking the type of the response 
 
   });
   // test if the stamper middleware works
-  test('stamper middleware works', async () => {
+  test('timeStamper middleware works', async () => {
     const response = await request.get('/data');
     expect(response.status).toEqual(200);
     expect(response.body.time).toBeDefined();
