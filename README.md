@@ -5,10 +5,11 @@
 ### Deployment Test
 Author: Sana Ishaqat
 
-[tests report](https://github.com/SanaIshaqat/server-deployment-practice/actions)
+[tests report (actions)](https://github.com/SanaIshaqat/server-deployment-practice/actions)
 
-[back-end](https://sanaishaqat-server-deploy-prod.herokuapp.com/status)
+[back-end (heroku)](https://sanaishaqat-server-deploy-prod.herokuapp.com/status)
 
+[PR Link](https://github.com/SanaIshaqat/server-deployment-practice/pull/4)
 
 ### Setup
 .env requirements
