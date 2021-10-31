@@ -27,7 +27,16 @@ app.get('/data', timeStamper, (req, res) => {
 
   res.status(200).json(outputData);
 });
+app.get('/status', timeStamper, (req, res) => {
 
+    const outputStatus = {
+        "status":"running",
+        "port":3030,
+        "domain":"https://sanaishaqat-server-deploy-prod.herokuapp.com"
+    };
+  
+    res.status(200).json(outputStatus);
+  });
 
 app.get('/bad', (req, res, next) => {
   // next('An Error Was Found !');
