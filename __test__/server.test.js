@@ -16,7 +16,7 @@ describe('API Server Testing', () => {
   test('if theres a home route', async () => {
     const response = await request.get('/');
     expect(response.status).toEqual(200);
-    expect(response.text).toEqual('All is good 🥳');
+    expect(response.text).toEqual('Server is working :D');
 
   });
 
